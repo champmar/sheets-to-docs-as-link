@@ -6,10 +6,10 @@ function onOpen () {
 }
 
 function createNewGoogleDocs() {
-    const googleDocTemplate = DriveApp.getFileById('1c1AQRl2Aio406AV8KOu3fSXPYIpUshBXBKm3gVoD94A')
+    const googleDocTemplate = DriveApp.getFileById('')
     const sheet = SpreadsheetApp
         .getActiveSpreadsheet()
-        .getSheetByName('QTIVPR')
+        .getSheetByName('')
 
     const rows = sheet.getDataRange().getValues();
 
